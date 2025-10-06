@@ -17,7 +17,7 @@
 /* League Gothic for headings */
 @font-face {
   font-family: 'League Gothic';
-  src: url('/fonts/LeagueGothic-Regular.ttf') format('truetype');
+  src: url('fonts/LeagueGothic-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 /* Source Code Pro for body */
 @font-face {
   font-family: 'Source Code Pro';
-  src: url('/fonts/SourceCodePro-Light.ttf') format('truetype');
+  src: url('fonts/SourceCodePro-Light.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'Source Code Pro';
-  src: url('/fonts/SourceCodePro-Bold.ttf') format('truetype');
+  src: url('fonts/SourceCodePro-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
