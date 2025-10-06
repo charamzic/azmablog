@@ -1,4 +1,4 @@
-base_url = "https://charamzic.github.io/blog/"
+base_url = "https://charamzic.github.io/azmablog/"
 title = "azmablog"
 description = "Writing down my learning process. Probably mainly Rust, and Java..."
 compile_sass = true
@@ -51,11 +51,11 @@ show_theme_switcher = true
 # Navigation links - THIS IS THE KEY PART
 [[extra.nav.links]]
 name = "Posts"
-url = "/posts"
+url = "posts"
 
 [[extra.nav.links]]
 name = "Code"
-url = "/code"
+url = "code"
 
 # Social links in footer (optional)
 [[extra.social]]
