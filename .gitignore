@@ -1,0 +1,29 @@
+# Zola build output
+public/
+.zola-cache/
+
+# Sass build artifacts
+sass/.sass-cache/
+*.css.map
+
+# macOS files
+.DS_Store
+
+# VSCode / JetBrains / Editor junk
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*~
+*.swp
+*.swo
+
