@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>azmablog</title>
     <subtitle>Writing down my learning process. Probably mainly Rust, and Java...</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://charamzic.github.io/azmablog/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://charamzic.github.io/azmablog/"/>
+    <link rel="self" type="application/atom+xml" href="https://blog.azmarach.work/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.azmarach.work/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-10-04T00:00:00+00:00</updated>
-    <id>https://charamzic.github.io/azmablog/atom.xml</id>
+    <id>https://blog.azmarach.work/atom.xml</id>
     <entry xml:lang="en">
         <title>Turning old McBook into an Ubuntu Server - Part 1</title>
         <published>2025-10-04T00:00:00+00:00</published>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://charamzic.github.io/azmablog/posts/turning-old-macbook-into-an-ubuntu-server-part-1/"/>
-        <id>https://charamzic.github.io/azmablog/posts/turning-old-macbook-into-an-ubuntu-server-part-1/</id>
+        <link rel="alternate" type="text/html" href="https://blog.azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-1/"/>
+        <id>https://blog.azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-1/</id>
         
-        <content type="html" xml:base="https://charamzic.github.io/azmablog/posts/turning-old-macbook-into-an-ubuntu-server-part-1/">&lt;p&gt;This project is my first step into creating a personal lab where I can start learning DevOps tools and skills, and I’ll walk you through exactly how I got it up and running.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://blog.azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-1/">&lt;p&gt;This project is my first step into creating a personal lab where I can start learning DevOps tools and skills, and I’ll walk you through exactly how I got it up and running.&lt;&#x2F;p&gt;
 &lt;p&gt;I had an old MacBook Air running elementary OS, which was the perfect machine for this project. Keep in mind that the steps I describe are specific to this MacBook
 and may vary on other devices. Also, all commands I use bellow might be specific to my current MackBook which I will be using as a workstation. As a beginner,
 there might be more efficient approaches out there, but these steps worked for me. I hope sharing my process helps other DevOps padawans get started with their own home labs.&lt;&#x2F;p&gt;
@@ -147,10 +147,10 @@ there might be more efficient approaches out there, but these steps worked for m
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://charamzic.github.io/azmablog/posts/turning-old-macbook-into-an-ubuntu-server-part-2/"/>
-        <id>https://charamzic.github.io/azmablog/posts/turning-old-macbook-into-an-ubuntu-server-part-2/</id>
+        <link rel="alternate" type="text/html" href="https://blog.azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-2/"/>
+        <id>https://blog.azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-2/</id>
         
-        <content type="html" xml:base="https://charamzic.github.io/azmablog/posts/turning-old-macbook-into-an-ubuntu-server-part-2/">&lt;h2 id=&quot;install-ubuntu-server-on-your-old-laptop&quot;&gt;Install Ubuntu Server on your old laptop&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://blog.azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-2/">&lt;h2 id=&quot;install-ubuntu-server-on-your-old-laptop&quot;&gt;Install Ubuntu Server on your old laptop&lt;&#x2F;h2&gt;
 &lt;p&gt;Since my only internet connection is an unstable Wi-Fi, I encountered some challenges during the installation process, which I’ll cover later. If you have access to a wired connection, I recommend using it for a more stable experience.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Insert the bootable USB drive into your old laptop.&lt;&#x2F;li&gt;
