@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://azmarach.work/</loc>
+        <loc>https://charamzic.github.io/blog/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/code/</loc>
+        <loc>https://charamzic.github.io/blog/code/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/posts/</loc>
+        <loc>https://charamzic.github.io/blog/posts/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/posts/page/1/</loc>
+        <loc>https://charamzic.github.io/blog/posts/page/1/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-1/</loc>
+        <loc>https://charamzic.github.io/blog/posts/turning-old-macbook-into-an-ubuntu-server-part-1/</loc>
         <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-        <loc>https://azmarach.work/posts/turning-old-macbook-into-an-ubuntu-server-part-2/</loc>
+        <loc>https://charamzic.github.io/blog/posts/turning-old-macbook-into-an-ubuntu-server-part-2/</loc>
         <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-        <loc>https://azmarach.work/tags/</loc>
+        <loc>https://charamzic.github.io/blog/tags/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/tags/devops/</loc>
+        <loc>https://charamzic.github.io/blog/tags/devops/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/tags/linux/</loc>
+        <loc>https://charamzic.github.io/blog/tags/linux/</loc>
     </url>
     <url>
-        <loc>https://azmarach.work/tags/tech/</loc>
+        <loc>https://charamzic.github.io/blog/tags/tech/</loc>
     </url>
 </urlset>
