@@ -5,8 +5,68 @@
     <link rel="self" type="application/atom+xml" href="https://blog.azmarach.work/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://blog.azmarach.work/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-10-04T00:00:00+00:00</updated>
+    <updated>2025-10-06T00:00:00+00:00</updated>
     <id>https://blog.azmarach.work/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Fast Api Replaced By Zola</title>
+        <published>2025-10-06T00:00:00+00:00</published>
+        <updated>2025-10-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.azmarach.work/posts/fast-api-replaced-by-zola/"/>
+        <id>https://blog.azmarach.work/posts/fast-api-replaced-by-zola/</id>
+        
+        <content type="html" xml:base="https://blog.azmarach.work/posts/fast-api-replaced-by-zola/">&lt;h2 id=&quot;created-a-fast-api-blog&quot;&gt;Created a Fast Api Blog&lt;&#x2F;h2&gt;
+&lt;p&gt;At first, I thought about building the blog as another Spring microservice. Too heavy, I thought immediately. I already have a basic
+website running on Spring Boot and waiting for the containers to fire up just to change a link to this blog, well — why keep the overkill mode on, right?&lt;&#x2F;p&gt;
+&lt;div class=&quot;crt scanlines&quot; aria-hidden=&quot;true&quot;&gt;
+	&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;2025-10-06T15:29:09.000000000Z [inf]  Starting Container
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740704036Z [inf]  
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740714150Z [inf]    .   ____          _            __ _ _
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740722455Z [inf]   &#x2F;\\ &#x2F; ___&amp;#39;_ __ _ _(_)_ __  __ _ \ \ \ \
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740728764Z [inf]  ( ( )\___ | &amp;#39;_ | &amp;#39;_| | &amp;#39;_ \&#x2F; _` | \ \ \ \
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740734024Z [inf]   \\&#x2F;  ___)| |_)| | | | | || (_| |  ) ) ) )
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740740239Z [inf]    &amp;#39;  |____| .__|_| |_|_| |_\__, | &#x2F; &#x2F; &#x2F; &#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740745637Z [inf]   =========|_|==============|___&#x2F;=&#x2F;_&#x2F;_&#x2F;_&#x2F;
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740751725Z [inf]  
+&lt;&#x2F;span&gt;&lt;span&gt;2025-10-06T15:29:10.740767721Z [inf]   :: Spring Boot ::                (v3.5.3)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+
+&lt;&#x2F;div&gt;
+&lt;p&gt;So, what’s the next option? Well, I’m learning Python, and FastAPI
+is just… sweet! I went with Python for my blog, and of course, it was a very pleasant experience. I really like FastAPI,
+and I’m definitely not the only one. I finished the blog API service in no time. You can check out the repo here: &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;charamzic&#x2F;blogpy-api&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;charamzic&#x2F;blogpy-api&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;You can also check the &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blogpy-api-production.up.railway.app&#x2F;docs&#x2F;&quot;&gt;swagger&lt;&#x2F;a&gt; - it comes automatically with FastAPI. Don’t try to call the endpoints without an API key, though.&lt;&#x2F;p&gt;
+&lt;p&gt;Done. Simple. Fast. Functional. But, as usual, I left it hanging for a while, during which I explored new stuff on the INTERNET!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;created-a-zola-blog&quot;&gt;Created a Zola Blog&lt;&#x2F;h2&gt;
+&lt;p&gt;One night, just before falling asleep, I came across this interview. The interview itself wasn’t amazing, but a few things stuck with me.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nik-rev&quot;&gt;Nik Revenco&lt;&#x2F;a&gt; is a smart guy.&lt;&#x2F;li&gt;
+&lt;li&gt;Maybe it&#x27;s time to give &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;helix-editor.com&quot;&gt;Helix&lt;&#x2F;a&gt; another try.&lt;&#x2F;li&gt;
+&lt;li&gt;I&#x27;ll write my blog with &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;AS7mnDgFgnw&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;p&gt;I used to have a blog with &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&quot;&gt;Hugo&lt;&#x2F;a&gt; and working with it was seamless. So why not try something similar?
+And that’s what I did. You’re now looking at a Zola blog with the Duckquill theme (links in the footer, btw). I’m writing it in Helix.&lt;&#x2F;p&gt;
+&lt;p&gt;These are my first lines, besides copying my &lt;a href=&quot;&#x2F;posts&#x2F;turning-old-macbook-into-an-ubuntu-server-part-1&quot;&gt;old article&lt;&#x2F;a&gt; from Substack. Now I&#x27;m fully commited to writing on
+a regular basis... though, let&#x27;s see, considering I possess a strongly developed weak will.&lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s it. It is still likely that I&#x27;ll use the fast api service at the end, or write something completely different, but for now, let us enjoy Zola.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Turning old McBook into an Ubuntu Server - Part 1</title>
         <published>2025-10-04T00:00:00+00:00</published>
