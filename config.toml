@@ -1,4 +1,4 @@
-base_url = "https://blog.azmarach.work"
+base_url = "https://charamzic.github.io/azmablog/"
 title = "azmablog"
 description = "Writing down my learning process. Probably mainly Rust, and Java..."
 compile_sass = true
