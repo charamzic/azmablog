@@ -10,8 +10,16 @@
         <loc>https://blog.azmarach.work/posts/</loc>
     </url>
     <url>
+        <loc>https://blog.azmarach.work/posts/asynchronous-http-request/</loc>
+        <lastmod>2024-03-02</lastmod>
+    </url>
+    <url>
         <loc>https://blog.azmarach.work/posts/fast-api-replaced-by-zola/</loc>
         <lastmod>2025-10-06</lastmod>
+    </url>
+    <url>
+        <loc>https://blog.azmarach.work/posts/http-request-without-fw/</loc>
+        <lastmod>2024-02-27</lastmod>
     </url>
     <url>
         <loc>https://blog.azmarach.work/posts/page/1/</loc>
@@ -31,10 +39,19 @@
         <loc>https://blog.azmarach.work/tags/</loc>
     </url>
     <url>
+        <loc>https://blog.azmarach.work/tags/archive/</loc>
+    </url>
+    <url>
         <loc>https://blog.azmarach.work/tags/devops/</loc>
     </url>
     <url>
         <loc>https://blog.azmarach.work/tags/fastapi/</loc>
+    </url>
+    <url>
+        <loc>https://blog.azmarach.work/tags/http/</loc>
+    </url>
+    <url>
+        <loc>https://blog.azmarach.work/tags/java/</loc>
     </url>
     <url>
         <loc>https://blog.azmarach.work/tags/linux/</loc>
